@@ -2,7 +2,7 @@
 --
 -- Name: beer; Type: TABLE; Schema: public; Tablespace:
 --
-
+DROP TABLE beer;
 CREATE TABLE beer (
     name text,
     tags text,
@@ -36,7 +36,7 @@ ALTER SEQUENCE beer_id_seq OWNED BY beer.id;
 --
 -- Name: brewery; Type: TABLE; Schema: public; Tablespace:
 --
-
+DROP TABLE brewery;
 CREATE TABLE brewery (
     id integer NOT NULL,
     name text
